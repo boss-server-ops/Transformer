@@ -31,8 +31,6 @@ train_data_path = './data/json/train.json'
 dev_data_path = './data/json/dev.json'
 test_data_path = './data/json/test.json'
 model_path = './experiment/model.pth'
-log_path = './experiment/train.log'
-output_path = './experiment/output.txt'
 
 # gpu_id and device id is the relative id
 # thus, if you wanna use os.environ['CUDA_VISIBLE_DEVICES'] = '2, 3'
